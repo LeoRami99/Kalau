@@ -10,7 +10,6 @@ body,html{
   top: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-	padding: 50px;
 	margin: 0 auto;
 }
 .cajas{
@@ -87,17 +86,20 @@ a{
 }
 @media(max-width: 786px){
 	.contenedor{
-		align-items: center;
+   position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 	}
 	.cajas{
-		margin: 0 auto;
 		opacity: 1;
 		width: 90%;
 		margin-top: 15px;
-		margin: 0 auto;
+		margin: 10px;
 	}
 	.boton-entrar{
-		width: 100%;
+		width: 90%;
 	}
 	.titulo{
 		text-align: justify;
