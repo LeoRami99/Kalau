@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Kalau</title>
+      <link rel="stylesheet" href="styles/styles.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="script/arriba.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="footer.css">
+      <link rel="icon" href="img/logo.svg">
+      <link rel="stylesheet" type="text/css" href="styles/loaderg.css">
+</head>
+<body>
+   <div id="contenedor_carga">
+     <div id="carga"></div>
+  </div>   
+   <span class="ir-arriba icon-arrow-up"></span>
+      <div class="wrapper">
+              <header>
+                    <nav>
+                          <div class="menu-icon">
+                            <i class="fa fa-bars fa-2x"></i>
+                          </div>
+
+                          <div class="logo">
+
+                            <a href="index.html" class="logo-letra">
+                                <!--<img src="img/logoblack.svg" alt="logo" width="50px" height="50px">-->
+                              <span>KALAU</span>
+                            </a>
+                                
+
+                          </div>
+
+                          <div class="menu">
+                                <ul>
+                                      <li><a href="#" class="iconmenu"><span class="icon-home"> </span>Inicio</a></li>
+                                      <li><a href="#" class="iconmenu"><span class="icon-users"> </span>Nosotros</a></li>
+                                      <li><a href="#" class="iconmenu"><span class="icon-dollar-sign"> </span>Donar</a></li>
+                                      <li><a href="#" class="iconmenu"><span class="icon-phone-call"> </span>Contactenos</a></li>
+                                      <li><a href="pages/app.html" class="iconmenu"><span class="icon-download"> </span>App</a></li>
+                                </ul>
+                          </div>
+                    </nav>
+              </header>
+              <div id="bloque1" class="content">
+                  		<p class="titulo-1">BIENVENIDO A KALAU</p>
+                <section class="parrafo">
+                    <p>
+                        Hola, te damos la bienvenida a nuestro sitio web en el cual podras encontrar 
+                        variadas cosas, como a que se dedica kalau y cual es su fin.
+                        Kalau nace de la idea de un joven , está página tiene como fin desarrollar software como lo son aplicaciones mobiles, programas de computadora etc...
+                        Actualmente kalau esta en el proceso de estudio y desarrollo de dos 
+                        <a href="apps">aplicaciones</a> para ayudar a la gente reducir su tiempo de espera y una 
+                        entrega como se debe de ser.
+                    </p>
+                
+         </div>
+                </section>
+                        <a href="inicio.html">Inicio</a>
+                        <a href="forms/login.html">Login</a>
+                        <a href="forms/registro.html">Registro</a>
+                <section>
+           
+  		</div>
+        <footer>
+        	<p class="titu">KALAU</p>
+			<p class="iconss"><a href="#" class="puta" style="text-decoration: none; ;"><span class="icon-instagram"> </span></a>
+			<a href="#" class="puta" style="text-decoration: none; "><span class="icon-facebook"> </span></a>
+			<a href="#" class="puta" style="text-decoration: none; color:white;"><span class="icon-github"> </span></a>
+			<a href="#" class="puta" style="text-decoration: none; color:#1BBDFF;"><span class="icon-twitter"> </span></a>
+			</p>
+			<p>
+		    Posted by: Leonardo Ramírez© </p>
+		    <p>Contact information: <a href="juanlov4321@gmail.com" style="color:#fff;">
+		    juanlov4321@gmail.com</a></p>
+        </footer>
+  </div> 
+  	<!--Javascript funciones y demas-->
+
+  	    <script type="text/javascript">
+
+  	      // Menu-toggle button
+
+  	      $(document).ready(function() {
+  	            $(".menu-icon").on("click", function() {
+  	                  $("nav ul").toggleClass("showing");
+  	            });
+  	      });
+
+  	      // Scrolling Effect
+
+  	      $(window).on("scroll", function() {
+  	            if($(window).scrollTop()) {
+  	                  $('nav').addClass('black');
+  	            }
+
+  	            else {
+  	                  $('nav').removeClass('black');
+  	            }
+  	      })
+
+
+  	    </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ <script>
+   window.onload = function(){
+    var contenedor =document.getElementById('contenedor_carga');
+    contenedor.style.visibility = 'hidden';
+    contenedor.style.opacity = '0';
+   }
+  </script>
+
+</body>
+</html>

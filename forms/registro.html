@@ -1,0 +1,51 @@
+<!--este página es desarrollado por Leonardo Ramírez-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Kalau | Registro</title>
+	<link rel="stylesheet" href="estilosform.css">
+	<link rel="stylesheet" href="../styles/particulas.css">
+	<link rel="stylesheet" type="text/css" href="../styles/loaderg.css">
+</head>
+<body>
+	<div id="contenedor_carga">
+     <div id="carga"></div>
+	</div>	
+	<div id="particles-js"></div>
+	<form action="#" method="get" accept-charset="utf-8" class="contenedor">
+		<div class="container">
+		  <span class="txt anim-text-flow">Kalau | Registro</span>
+		</div>
+		<div class="inputs">
+			<input type="text" placeholder="Usuario" class="cajas" required>
+			<input type="password" placeholder="Contraseña" class="cajas" required>
+			<input type="email" placeholder="ejemplo@email.com" class="cajas" required>
+			<p class="olvide"><input type="checkbox" class="checkbox" required="Acepta las condiciones" value="acepta"> Acepta <a href="#" "Contraseña">terminos y condiciones</a></p>
+			<input type="submit" value="Registrar" class="boton-entrar">
+			<p class="olvide">Ya tienes cuenta<a href="login.html" "Contraseña"> Login</a></p>
+		</div>
+	</form>
+			<script src="http://code.jquery.com/jquery-latest.js"></script>
+			<script src="../particles.js"></script>
+			<script src="../particulas.js"></script>
+			<script type="text/javascript">
+				$('.txt').html(function(i, html) {
+		  var chars = $.trim(html).split("");
+
+		  return '<span>' + chars.join('</span><span>') + '</span>';
+		});
+			</script>
+				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			 <script>
+		   window.onload = function(){
+		    var contenedor =document.getElementById('contenedor_carga');
+		    contenedor.style.visibility = 'hidden';
+		    contenedor.style.opacity = '0';
+		   }
+		  </script>
+</body>
+</html>

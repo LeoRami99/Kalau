@@ -1,0 +1,73 @@
+footer{
+	display: block;
+	text-align: center;
+	color: #fff;
+	text-decoration-color:white;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	text-decoration: none;
+	transition:border-radius 2s;
+  	background-color: #000;
+}
+footer:hover{
+	border-top-left-radius: 20px;
+	border-top-right-radius-radius: 20px;
+
+}
+.icon-instagram{
+	color:purple;
+	text-shadow: 2px 2px gray;
+	font-size: 20px;
+	transition:font-size 1s, color 1s, animation 1s;
+}
+.icon-instagram:hover{
+	font-size: 30px;
+	color:#E8BE20;
+}
+.icon-facebook{
+	color: blue;
+	text-shadow: 2px 2px gray;
+	font-size: 20px;
+	transition:font-size 1s, color 1s, animation 1s;
+}
+.icon-facebook:hover{
+	font-size: 30px;
+	color:#fff;
+}
+.icon-github{
+	text-shadow: 2px 2px gray;
+	font-size: 20px;
+	transition:font-size 1s, animation 1s;
+}
+.icon-github:hover{
+	font-size: 30px;
+	
+}
+.icon-twitter{
+	text-shadow: 2px 2px gray;
+	font-size: 20px;
+	transition:font-size 1s, color 1s, animation 1s;
+}
+.icon-twitter:hover{
+	font-size: 30px;
+	color: #fff;
+	animation: iluminacion 3s ease infinite;
+	
+}
+.titu{
+	font-size: 20px;
+	font-weight: bold;
+	animation: iluminacion 3s ease infinite;
+}
+@keyframes iluminacion{
+	from{
+		text-shadow: 0 1px 10px #F4DE37;
+	}
+	50%{
+		text-shadow: 0 1px 0px #F4DE37;
+	}
+	to{
+		text-shadow: 0 1px 10px #F4DE37;
+	}
+}

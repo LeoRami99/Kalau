@@ -1,0 +1,49 @@
+<!--este página es desarrollado por Leonardo Ramírez-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Kalau | Login</title>
+	<link rel="stylesheet" href="estilosform.css">
+	<link rel="stylesheet" href="../styles/particulas.css">
+	<link rel="stylesheet" type="text/css" href="../styles/loaderg.css">
+
+</head>
+<body>
+		<div id="contenedor_carga">
+	     <div id="carga"></div>
+	  	</div>  
+		<div id="particles-js"></div>
+		<form action="#" method="get" accept-charset="utf-8" class="contenedor">
+				<div class="container">
+				  <span class="txt anim-text-flow">Kalau | Login</span>
+				</div>
+			<div class="inputs">
+				<input type="text" placeholder="Usuario" class="cajas" required>
+				<input type="password" placeholder="Contraseña" class="cajas" required>
+				<input type="submit" value="Entrar" class="boton-entrar">
+				<p class="olvide">Olvidaste tu contraseña <a href="#" "Contraseña">Aquí</a></p>
+				<p class="olvide">Registrar <a href="registro.html" "Registrar">Aquí</a></p>
+			</div>
+		</form>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="../particles.js"></script>
+		<script src="../particulas.js"></script>
+		<script type="text/javascript">
+			$('.txt').html(function(i, html) {
+	  var chars = $.trim(html).split("");
+
+	  return '<span>' + chars.join('</span><span>') + '</span>';
+	});
+		</script>
+		<script>
+	   window.onload = function(){
+	    var contenedor =document.getElementById('contenedor_carga');
+	    contenedor.style.visibility = 'hidden';
+	    contenedor.style.opacity = '0';
+	   }
+	  </script>
+</body>
+</html>

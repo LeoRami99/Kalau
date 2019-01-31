@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Kalausoft</title>
+	<link rel="stylesheet" href="styles/estilos.css">
+	<link rel="stylesheet" href="styles/particulas.css">
+	<link rel="stylesheet" type="text/css" href="styles/loaderg.css">
+</head>
+<body>
+	  <div id="contenedor_carga">
+     <div id="carga"></div>
+  </div>   
+	<div id="particles-js"></div>
+	<div class="home">
+	<div class="seccion1">
+		<p class="titulo">KALAUSOFT</p>
+		<a href="forms/login.html" class="boton">Login</a>
+		<a href="forms/registro.html" class="boton">Registrar</a>
+		<p class="parrafo-ini">Bienvenido a kalausoft, si no recuerdas tu contraseña comunicate soporte</p>
+	</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="particles.js"></script>
+	<script src="particulas.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(window).load(function() {
+		$('#preloader').fadeOut('slow');
+		$('body').css({'overflow':'visible'});
+	})
+		
+	</script>
+	<script>
+   window.onload = function(){
+    var contenedor =document.getElementById('contenedor_carga');
+    contenedor.style.visibility = 'hidden';
+    contenedor.style.opacity = '0';
+   }
+  </script>
+
+</body>
+</html>
