@@ -94,10 +94,10 @@ a{
 		opacity: 1;
 		width: 90%;
 		margin-top: 15px;
-		margin: 10px auto;
+		margin: 0 auto;
 	}
 	.boton-entrar{
-		width: 90%;
+		width: 100%;
 	}
 	.titulo{
 		text-align: justify;
